@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "strict": true,
+    "resolveJsonModule": true,
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "jsx": "preserve",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/main/background.js"],
+  "types" : ["chrome"],
+  "exclude": ["/dist", "node_modules"]
+}
+
